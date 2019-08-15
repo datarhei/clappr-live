@@ -609,7 +609,7 @@ export default class HLS extends HTML5VideoPlayback {
     let currentLevel = this._hls.levels[data.level]
     if (currentLevel) {
       // TODO should highDefinition be private and maybe have a read only accessor if it's used somewhere
-      this.highDefinition = (currentLevel.height >= 720 || (currentLevel.bitrate / 1000) >= 2000)
+      this.highDefinition = (currentLevel.height >= 720 || (currentLevel.bitrate / 1024) >= 1000)
       this.trigger(Events.PLAYBACK_HIGHDEFINITIONUPDATE, this.highDefinition)
       this.trigger(Events.PLAYBACK_BITRATE, {
         height: currentLevel.height,
