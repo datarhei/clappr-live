@@ -89,6 +89,14 @@ export default class Strings extends CorePlugin {
         'default_error_title': 'غير قادر الى التشغيل.',
         'default_error_message': 'حدثت مشكلة أثناء تحميل الفيديو.',
       },
+      'de': {
+        'live': 'live',
+        'back_to_live': 'Zurück zum Livebild',
+        'disabled': 'Deaktivieren',
+        'playback_not_supported': 'Ihr Browser kann dieses Video leider nicht wiedergeben. Bitte versuchen Sie es mit einem anderen Browser.',
+        'default_error_title': 'Das Video konnte nicht wiedergegeben werden.',
+        'default_error_message': 'Es gab ein Problem beim Versuch, das Video zu laden.',
+      },
     }
 
     this._messages = $.extend(true, defaultMessages, this.core.options.strings || {})
@@ -99,5 +107,6 @@ export default class Strings extends CorePlugin {
     this._messages['tr-TR'] = this._messages['tr']
     this._messages['et-EE'] = this._messages['et']
     this._messages['ar-IQ'] = this._messages['ar']
+    this._messages['de-DE'] = this._messages['de']
   }
 }
