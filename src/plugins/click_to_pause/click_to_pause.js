@@ -19,7 +19,7 @@ export default class ClickToPausePlugin extends ContainerPlugin {
   }
 
   click() {
-    if (this.container.getPlaybackType() !== Playback.LIVE || this.container.isDvrEnabled()) {
+    if (this.container.getPlaybackType()) {
       if (this.container.isPlaying())
         this.container.pause()
       else
@@ -29,7 +29,7 @@ export default class ClickToPausePlugin extends ContainerPlugin {
   }
 
   settingsUpdate() {
-    const pointerEnabled = this.container.getPlaybackType() !== Playback.LIVE || this.container.isDvrEnabled()
+    const pointerEnabled = this.container.getPlaybackType()
     if (pointerEnabled === this.pointerEnabled) return
 
     const method = pointerEnabled ? 'addClass' : 'removeClass'

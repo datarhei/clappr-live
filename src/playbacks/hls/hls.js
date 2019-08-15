@@ -269,7 +269,7 @@ export default class HLS extends HTML5VideoPlayback {
   _updateSettings() {
     if (this._playbackType === Playback.VOD)
       this.settings.left = ['playpause', 'position', 'duration']
-    else if (this.dvrEnabled)
+    else if (this.dvrEnabled || this._playbackType === Playback.LIVE)
       this.settings.left = ['playpause']
     else
       this.settings.left = ['playstop']
