@@ -95,7 +95,7 @@ export default class Strings extends CorePlugin {
         'disabled': 'Deaktivieren',
         'playback_not_supported': 'Ihr Browser kann dieses Video leider nicht wiedergeben. Bitte versuchen Sie es mit einem anderen Browser.',
         'default_error_title': 'Das Video konnte nicht wiedergegeben werden.',
-        'default_error_message': 'Es gab ein Problem beim Versuch, das Video zu laden.',
+        'default_error_message': 'Das Livebild der Webcam konnte nicht übertragen werden. Bitte versuchen Sie es zu einem spätere Zeitpunkt erneut.',
       },
     }
 
