@@ -1,8 +1,7 @@
 .clappr-watermark[data-watermark] {
   position: absolute;
-  min-width: 70px;
-  max-width: 200px;
-  width: 12%;
+  max-width: 15%;
+  max-height: 12%;
   text-align: center;
   z-index: 10;
 }
@@ -17,21 +16,21 @@
 }
 
 .clappr-watermark[data-watermark-bottom-left] {
-  bottom: 10px;
-  left: 10px;
+  bottom: 30px;
+  left: 30px;
 }
 
 .clappr-watermark[data-watermark-bottom-right] {
-  bottom: 10px;
-  right: 42px;
+  bottom: 30px;
+  right: 30px;
 }
 
 .clappr-watermark[data-watermark-top-left] {
-  top: 10px;
-  left: 10px;
+  top: 30px;
+  left: 30px;
 }
 
 .clappr-watermark[data-watermark-top-right] {
-  top: 10px;
-  right: 37px;
+  top: 30px;
+  right: 30px;
 }
