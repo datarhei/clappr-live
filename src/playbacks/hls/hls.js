@@ -25,10 +25,6 @@ export default class HLS extends HTML5VideoPlayback {
 
   }
 
-  get hls() {
-    return this._hls;
-  }
-
   get isReady() {
     return this._isReadyState
   }
