@@ -93,9 +93,9 @@ export default class Strings extends CorePlugin {
         'live': 'live',
         'back_to_live': 'Zurück zum Livebild',
         'disabled': 'Deaktivieren',
-        'playback_not_supported': 'Ihr Browser kann dieses Video leider nicht wiedergeben. Bitte versuchen Sie es mit einem anderen Browser.',
-        'default_error_title': 'Das Video konnte nicht wiedergegeben werden.',
-        'default_error_message': 'Das Livebild der Webcam konnte nicht übertragen werden. Bitte versuchen Sie es zu einem spätere Zeitpunkt erneut.',
+        'playback_not_supported': 'Ihr Browser kann dieses Video nicht wiedergeben. Bitte versuchen Sie es mit einem anderen Browser. Weitere Informationen <a href="https://livespotting.com/help.html">hier</a>.',
+        'default_error_title': 'Fehler bei der Wiedergabe',
+        'default_error_message': 'Die Videodaten der Webcam konnten nicht abgespielt werden. Weitere Informationen erhalten Sie <a href="https://livespotting.com/help.html#player-errorcode" target="_blank">hier</a>.',
       },
     }
 
